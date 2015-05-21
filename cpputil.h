@@ -9,8 +9,8 @@ inline string formatDouble(double inputDouble, int prec = 2, bool showops = fals
 {
        stringstream sstring;
        sstring << showpoint; // 
-       sstring << fixed;  // ÏÔÊ¾¶¨µãÐ¡Êý
-       sstring << setprecision(prec);  // ÏÔÊ¾¶àÉÙÎ»Ð¡Êý 
+       sstring << fixed;  // fix point
+       sstring << setprecision(prec);  // precision
        if( true == showops)
        {
               sstring << showpos;   
