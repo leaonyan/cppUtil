@@ -8,7 +8,7 @@ using namespace std;
 inline string formatDouble(double inputDouble, int prec = 2, bool showops = false)
 {
        stringstream sstring;
-       sstring << showpoint; // 
+       sstring << showpoint; // show point 
        sstring << fixed;  // fix point
        sstring << setprecision(prec);  // precision
        if( true == showops)
